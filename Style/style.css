@@ -1,0 +1,96 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    /* overflow: hidden; */
+}
+.main{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+
+}
+
+
+.left {
+   background-image: linear-gradient(135deg, hsla(0, 0%, 100%,0.8),hsla(0, 100%, 98%,0.8)), 
+   linear-gradient(135deg, hsla(0, 80%, 86%,0.5), hsla(0, 74%, 74%,0.5));
+   position: relative;
+/* border: 1px solid red; */
+height: 100vh;
+width: 55.6rem;
+z-index: 1;
+}
+.right {
+    
+}
+img[src="/base-apparel-coming-soon-master/images/logo.svg"]{
+    position: absolute;
+    left: 7rem;
+    top: 3rem;
+}
+img[src="/base-apparel-coming-soon-master/images/hero-desktop.jpg"]{
+    height: 100vh;
+    /* width: 40vw; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+img[src="/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg"]{
+     width: 55.4rem;
+     height: 100vh;
+     position: absolute;
+     /* z-index: -1;  /  */
+     opacity: 0.1;
+}
+
+.left > h2,span {
+    position: relative;
+    color: hsl(0, 6%, 24%);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    width: 14rem;
+    line-height: 3.3rem;
+    letter-spacing: 1rem;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    z-index: 1;
+
+}
+span {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    margin-left: 0;
+}
+.left > p {
+    color: hsl(0, 36%, 70%);
+    width: 25rem;
+    font-size: 0.9rem;
+    /* border: 1px solid red; */
+    margin-left: 7rem;
+    margin-top: 0.8rem;
+    line-height: 1.6rem;
+    z-index: 1;
+    position: relative;
+
+    
+}
+
+
+@media screen and (max-width:800px) {
+    /* img[src="/base-apparel-coming-soon-master/images/hero-desktop.jpg"]{
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    } */
+}
