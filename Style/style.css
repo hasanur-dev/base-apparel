@@ -3,11 +3,11 @@
 }  */
 @font-face {
     font-family: Josefin Sans;
-    src: url('/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+    src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
 }
 @font-face {
     font-family: JS regular;
-    src: url('/fonts/Josefin_Sans/static/JosefinSans-Light.ttf');
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-Light.ttf');
 }
 *{
     margin: 0;
@@ -16,7 +16,7 @@
 
 }
 body{
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     /* margin-top: 500px; */
     background: linear-gradient(135deg, hsla(0, 0%, 100%,0.9),hsla(0, 100%, 98%,0.9)),
     linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
